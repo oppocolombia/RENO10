@@ -1,0 +1,262 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: rgb(8, 33, 8);
+    padding: 20px;
+    text-align: center;
+    color: #FFF;
+  }
+  
+  .video {
+    display: block;
+    width: 100%;
+  }
+
+  h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+  }
+  h3{
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0%;
+  }
+  p{
+    color: #FFF;
+    text-align: center;
+    margin-top: 0;
+  }
+  img{
+    float: right;
+    margin-left: 10px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .img1{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    float: right;
+    max-width: 50%;
+  }
+  .mp{
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding-left: 30px;
+    
+  }
+  .mpc{
+    font-size: 15px;
+    margin-top: 0;
+    padding-left: 20px;
+    
+  }
+
+  .img_descripcion{
+    float: left;
+    width: calc(50%-5px);
+  }
+
+  .camara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 0 auto;
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+  .camara .teleobjetiva img{
+    border-radius: 70px;
+  }
+  .teleobjetiva{
+    margin-top: 4%;
+  }
+  .diseño img{
+    border-radius: 40px;
+  }
+  .teleob_title{
+    font-size: 35px;
+    text-align: right;
+    margin-bottom: 0%;
+    margin-left: 10%;
+    margin-right: 15%;
+    text-align: center;
+  }
+  .cama-sony{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0%;
+  }
+  .cama-sony1{
+    display: flex;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 30px;
+    margin:20px;
+
+  }
+  .gris_grafito{
+    background-color: rgb(189, 244, 162);
+  }
+  .diseño2{
+    background-color: rgb(189, 244, 162);
+  }
+  .text_1{
+    margin: 0px 30px;
+  }
+  .text_2{
+    font-size: 20px;
+  }
+  .text_3{
+    font-size: 30px;
+  }
+  .text_4{
+    font-size: 30px;
+    color: black;
+  }
+  .title_1{
+    font-size: 20px;
+    color: black;
+  }
+  .text_5{
+    font-size: 15px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 3px;
+  }
+  .text_6{
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .text_7{
+    font-size: 15px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 3px;
+    text-align: center;
+    margin-left: 40px;
+  }
+  .text_final{
+    font-size: 7px;
+  }
+  .pantalla img{
+    border-radius: 10px;
+    margin: 5px 5px;
+    margin-left: 10px;
+    justify-content: center;
+  }
+  .title_pantalla{
+    font-size: 20px;
+    background-color: black;
+    border-radius: 10px;
+  }
+  
+
+  .container-img{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px;
+    grid-gap: 10px;
+  }
+  .container-img .box-img figure{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .container-img .box-img img{
+    width: 100%;
+    height: 80%; 
+    object-fit: cover;
+  }
+  .ram img{
+    border-radius: 60px;
+    width: 1000px;
+    height:auto;
+  }
+  .title_ram{
+   
+    text-align: left;
+    font-size: 30px;
+    text-align: center;
+  }
+  .bateria{
+    text-align: left;
+    font-size: 30px;
+    text-align: center;
+
+  }
+  .bateria img{
+    border-radius: 30px;
+  }
+  .title_bateria{
+    text-align: left;
+    font-size: 30px;
+    text-align: center;
+
+  }
+  
+ 
+  
+  @mediascreen and(max-width:500px){
+    .container-img{
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .container-img .box-img img{
+      height: 200px;
+    }
+  }
+
+  @media screen and (max-width:150px){
+    .img1{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    img{
+      float: none;
+      margin-left: 0;
+      width: 80%;
+      max-width: none;
+    }
+    .img_descripcion{
+      float: none;
+      width: 80%;
+
+    }
+    .camara{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      max-width: none;
+      justify-content: center;
+
+    }
+  }
+
+  
+  
+  
