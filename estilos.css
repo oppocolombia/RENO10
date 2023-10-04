@@ -220,7 +220,7 @@ body {
   
  
   
-  @mediascreen and(max-width:500px){
+  @media screen and(max-width:500px){
     .container-img{
       width: 90%;
       grid-template-columns: repeat(1, 1fr);
