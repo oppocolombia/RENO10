@@ -234,6 +234,7 @@ body {
     overflow: hidden;
     transition: 0.2s;
     background-color: #76f804;
+    text-decoration: none;
   }
   .btn-neon:hover{
     background:greenyellow;
