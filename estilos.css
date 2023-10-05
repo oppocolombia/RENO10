@@ -28,6 +28,7 @@ body {
     color: #FFF;
     text-align: center;
     font-size: 60px;
+    justify-content: center;
   }
   h3{
     color: #FFF;
@@ -48,16 +49,17 @@ body {
   }
   .img1{
     display: flex;
-    overflow: hidden;
-    align-items: center;
     float: right;
-    max-width: 50%;
+    margin-right: 100px;
+    max-width: 90%;
+    justify-content: left;
+    
   }
   .mp{
+    display: flex;
     margin-bottom: 0;
-    margin-top: 20px;
-    padding-left: 30px;
-    text-align: center;
+    margin-top: 0;
+   
     
   }
   .mpc{
@@ -68,9 +70,10 @@ body {
   }
 
   .img_descripcion{
-    float: left;
-    width: calc(50%-5px);
+    float: right;
+    
   }
+  
 
   .camara{
     display: flex;
