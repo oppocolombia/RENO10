@@ -10,6 +10,8 @@ body {
     padding: 0;
     background-color: black;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
   }
   
   header {
@@ -220,6 +222,25 @@ body {
     font-size: 30px;
     text-align: center;
 
+  }
+
+  .btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 150x 30px;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 40px;
+    overflow: hidden;
+    transition: 0.2s;
+    background-color: #76f804;
+  }
+  .btn-neon:hover{
+    background:greenyellow;
+    box-shadow: 0 0 10px green, 0 0 40px green, 0 0 80px green;
+  }
+  .btn{
+    text-align: center;
   }
   
  
